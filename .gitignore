@@ -1,0 +1,34 @@
+# Secrets and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.p8
+*.kdbx
+*.gpg
+*.asc
+*.age
+*.sops
+*.jwt
+*.token
+*token*
+*secret*
+secrets/
+.secrets/
+**/secrets/
+**/*.secret
+**/*.secrets
+
+# Common credential stores
+.ssh/
+.gnupg/
+.aws/
+.kube/
+.password-store/
+
+# Known sensitive files
+auth.json
+credentials.json
