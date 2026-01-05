@@ -29,6 +29,9 @@ Add these entries to your labwc config at `~/.config/labwc/rc.xml` and reload wi
 <keybind key="A-Right">
   <action name="Execute" command="/home/scottrax/bin/volume-step.sh up"/>
 </keybind>
+<keybind key="A-1">
+  <action name="ToggleFullscreen"/>
+</keybind>
 ```
 
 ## Install
