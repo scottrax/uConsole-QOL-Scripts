@@ -42,3 +42,11 @@ Copy the scripts into `~/bin/` and ensure `~/bin` is on your `PATH`:
 mkdir -p ~/bin
 cp brightness-step.sh volume-step.sh ~/bin/
 ```
+
+## Labwc reload helper
+
+Run this from a terminal inside your labwc session to reload keybinds and config:
+
+```bash
+./labwc-reconfigure.sh
+```
